@@ -1,2 +1,2 @@
 #!/bin/bash
-read list | uniq | sort 
+read list | uniq | sort -r 
