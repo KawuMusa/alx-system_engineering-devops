@@ -1,2 +1,2 @@
 :!/bin/bash
-ls -l /etc/passwd | less | sort -k3
+cut -d : -f 1,6 /etc/passwd | sort
