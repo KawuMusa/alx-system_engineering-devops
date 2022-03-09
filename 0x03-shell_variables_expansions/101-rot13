@@ -1,2 +1,2 @@
 #!/bin/bash
-base 64 | -e -d
+base 64 -e -d
